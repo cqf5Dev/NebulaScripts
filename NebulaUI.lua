@@ -466,7 +466,7 @@ function NebulaLib:MakeWindow(WindowConfig)
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
-	WindowConfig.IntroText = WindowConfig.IntroText or "Loading the Interface..."
+	WindowConfig.IntroText = WindowConfig.IntroText or "Loading Script and UI..."
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://100854465732120"
